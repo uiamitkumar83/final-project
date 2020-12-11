@@ -12,8 +12,8 @@ export const HomeComponent =()=>{
                         backgroundImage:`url(${require('../../assets/img/home-page/hero_home_bg.svg').default})`
                     }}>
                         <div className="banner-content-container">
-                            <h1 className="banner-h1">FIND A ITI</h1>
-                            <p className="banner-p">Ridiculus sociosqu cursus neque cursus curae ante scelerisque vehicula.</p>
+                            <h1 className="banner-h1">Searching for ITI.. ?</h1>
+                            <p className="banner-p">Ask. Answer. Discover</p>
                             <div className="search-label">
                                 <input type="text" placeholder="Ex. Name, Specialization ...." />
                                 <button className="search-btn">Search</button>
