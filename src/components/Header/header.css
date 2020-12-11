@@ -10,7 +10,6 @@
 .lg-header .lg-logo {
     width:20rem;
 }
-
 .lg-menu-link-wrapper{
     width:calc(100% - 20rem);
 }
@@ -31,7 +30,6 @@
     display: flex;
     justify-content: flex-end;
 }
-
 /* logo sec css end */
 
 .menu-list-wrapper .menu-list{
