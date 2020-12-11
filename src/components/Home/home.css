@@ -1,0 +1,83 @@
+/* home page css started */
+
+.home-page-banner-div{
+    position: relative;
+    background: #3f4079; 
+    height:50rem;
+}
+.home-page-banner-div .banner-bg{
+   max-width:100%;
+}
+.home-page-banner-div .home-page-banner-content{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.home-page-banner-div .home-page-banner-content .banner-content-container{
+  width:47%;
+}
+.home-page-banner-content .banner-h1{
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    text-align:center;
+    line-height:5.5rem;
+    margin-bottom:1.6rem;
+}
+.home-page-banner-content .banner-p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    text-align:center;
+    line-height:2.3rem;
+    margin-bottom:1.6rem;
+}
+
+.search-label{
+    display:flex;
+    width:100%;
+}
+.search-label input{
+   flex:1;
+   border:0 !important;
+   outline:0 !important;
+   border-top-left-radius:.4rem;
+   border-bottom-left-radius:.4rem;
+   padding:1.2rem 1.6rem;
+   font-size:1.4rem;
+   color:#333;
+   letter-spacing:0.01rem;
+}
+.search-label input::placeholder{
+    color:rgba(51, 51, 51,.6); /*#333 opactity .6*/
+    letter-spacing:0.01rem;
+ }
+.search-label .search-btn{
+   padding:1.2rem 1.4rem;
+   min-width:10rem;
+   border:0 !important;
+   outline:0 !important;
+   border-top-right-radius:.4rem;
+   border-bottom-right-radius:.4rem;
+   cursor: pointer;
+   background-color: #74d1c6;
+   color: #fff;
+   font-size:1.4rem;
+   transition: all .3s ease-in-out;
+}
+.search-label .search-btn:hover{
+   background-color: #e74e84;
+   transition: all .3s ease-in-out;
+}
+

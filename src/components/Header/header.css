@@ -1,0 +1,156 @@
+.main-header{
+    background-color:#fff;   
+}
+.lg-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height:5rem;
+}
+.lg-header .lg-logo {
+    width:20rem;
+}
+.lg-menu-link-wrapper{
+    width:calc(100% - 20rem);
+}
+.lg-header .lg-logo {
+    width:20rem;
+}
+.lg-logo a{
+    display: inline-block;
+}
+.lg-logo img{
+    width: 16.3rem;
+    display: block;
+    background-size: 16.3rem 3.6rem;
+}
+
+.lg-menu-link-wrapper .menu-list-wrapper{
+    height:5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* logo sec css end */
+
+.menu-list-wrapper .menu-list{
+    position: relative !important;
+    display: flex;
+    align-items: center;
+}
+.lg-menu-link-wrapper .menu-list-wrapper .menu-link{
+    color: #333;
+    padding: 0 .8rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    position: relative;
+    transition: 0.5s color ease-in-out;
+}
+.lg-menu-link-wrapper .menu-list-wrapper .menu-list:hover .menu-link,
+.lg-menu-link-wrapper .menu-list-wrapper .menu-list.active .menu-link{
+    color: #e74e84;
+    transition: 0.5s color ease-in-out;
+}
+
+.lg-menu-link-wrapper .menu-list-wrapper{
+    list-style:none;
+    display: flex;
+}
+.profile-icon{
+    width:3.1rem;
+}
+
+/* menu list top level css end */
+
+.lg-menu-link-wrapper .menu-list-wrapper .sub-menu-ul{
+    list-style:none;
+    display:block;
+    width:20rem;
+    background: #fff;
+    position: absolute;
+    z-index:55;
+    top:5rem;
+    box-shadow:0 0 2rem .00002rem rgba(51, 51, 51,.2);
+    border-top:.2rem solid #e74e84;
+    visibility: hidden;
+    transform: translateY(1rem);
+    opacity:0;
+    transition:0.3s ease-in-out;
+    right:0;
+}
+
+
+.menu-list-wrapper .menu-list:hover  .sub-menu-ul{
+    transition:0.3s ease-in-out;
+    opacity: 1;
+    transform: translateY(0rem);
+    top:5rem;
+    visibility: visible;
+}
+.sub-menu-ul .sub-menu-list{
+    border-bottom:.01rem solid rgba(160, 94, 94, 0.2);
+    position: relative;
+}
+.sub-menu-ul .sub-menu-list .sub-menu-link{
+    color: #333;
+    display: block;
+    padding: 1rem .8rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    position: relative;
+    transition: 0.5s color ease-in-out;
+}
+.sub-menu-ul .sub-menu-list .sub-menu-link:hover{
+    color: #e74e84;
+    transition: 0.5s color ease-in-out;
+}
+
+/*sub-menu css end*/
+
+.sub-menu-ul .sub-menu-list .sub-menu-level1{
+    list-style:none;
+    display:block;
+    width:20rem;
+    background: #fff;
+    position: absolute;
+    z-index:55;
+    top:0rem;
+    box-shadow:0 0 2rem .00002rem rgba(51, 51, 51,.2);
+    border-top:.2rem solid #e74e84;
+    visibility: hidden;
+    transform: translateY(1rem) translateX(-20rem);
+    opacity:0;
+    transition:0.3s ease-in-out;
+}
+.sub-menu-ul .sub-menu-list:hover>.sub-menu-level1,
+.sub-menu-ul .sub-menu-list .sub-menu-level1 .sub-menu-level1-list:hover>.sub-menu-level1{
+    transition:0.3s ease-in-out;
+    opacity: 1;
+    transform: translateY(0rem) translateX(-20rem);
+    visibility: visible;
+}    
+
+.sub-menu-ul .sub-menu-list .sub-menu-level1-list{
+    border-bottom: .01rem solid rgba(160, 94, 94, 0.2);
+    position: relative;
+}
+
+.sub-menu-ul
+ .sub-menu-list 
+  .sub-menu-level1 
+   .sub-menu-level1-link{
+    color: #333;
+    display: block;
+    padding: 1rem .8rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    position: relative;
+    transition: 0.5s color ease-in-out;
+}
+.sub-menu-ul .sub-menu-list .sub-menu-level1 .sub-menu-level1-link:hover{
+    color: #e74e84;
+    transition: 0.5s color ease-in-out;
+}
+
+
+
