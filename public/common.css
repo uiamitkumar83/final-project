@@ -57,7 +57,7 @@ table {
 }
 ::-webkit-scrollbar-track{
     width:.4rem;
-    background-color: transparent;
+    background-color: rgba(231, 78, 132, 0.082);
 }
 /* reset css */
 
@@ -71,7 +71,8 @@ html{
     font-size:var(--defult-size);
 }
 body{
-    font-size: 1rem;
+	font-size: 1rem;
+	background: #f5f8fa;
 }
 .s-container{
 	max-width:80%;
@@ -97,6 +98,9 @@ a{
 	cursor: pointer;
 }
 
+.main-wrapper{
+	padding-top:5.1rem;
+}
 
 /* media query */
 

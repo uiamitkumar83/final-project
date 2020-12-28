@@ -21,7 +21,7 @@ export const SinglePageLayout = (props) => {
     });
     return (
         <Fragment>
-            <main>
+            <main className="main-wrapper">
             <Header></Header>   
                <props.children {...props}/>
             </main>     

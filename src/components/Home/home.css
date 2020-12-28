@@ -1,5 +1,25 @@
 /* home page css started */
-
+strong{
+    font-weight: 500;
+}
+.home-title-h1{
+    font-weight: 300;
+    letter-spacing: -.1rem;
+    font-size: 3.6rem;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom:1.6rem;
+}
+.home-title-h2{
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #777;
+    padding: 0 10%;
+    text-align: center;
+    margin-bottom:1.6rem;
+}
 .home-page-banner-div{
     position: relative;
     background: #3f4079; 
@@ -81,3 +101,123 @@
    transition: all .3s ease-in-out;
 }
 
+.banner-btn-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: center;
+}
+.banner-btn-wrapper .btn-banner-sm span{
+    display: inline-block;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #000;
+    background-color: rgba(0,0,0,.3);
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    border-radius: .3rem;
+    padding: .8rem 1rem .8rem 1rem;
+    line-height: 1;
+    text-shadow: none;
+    min-width: 5rem;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.banner-btn-wrapper .btn-banner-sm span:hover{
+    background-color: #e74e84;
+    color: #fff;  
+}
+.banner-btn-wrapper .btn-banner-sm input:checked + span{
+    background-color: #74d1c6;
+    color: #fff;  
+}
+.banner-btn-wrapper .btn-banner-sm input{
+    display:none;
+}
+
+
+/* home-page-sec-2 css */
+.home-page-sec-2{
+    padding-top: 12rem;
+    padding-bottom: 9.5rem;
+}
+.home-sec-2-card-container{
+    display: flex;
+    justify-content:space-between;
+    margin-top:4rem;
+}
+.home-sec-2-card-container .home-sec-2-card{
+    background-color: #fff;
+    padding: 4.5rem 4.5rem 2rem 4.5rem;
+    text-align: center;
+    position: relative;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    border-radius: .5rem;
+    -webkit-box-shadow: 0 0 3.0rem 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 3.0rem 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 3.0rem 0 rgba(0,0,0,.1);
+    margin-bottom: 2.5rem;
+    display:inline-block;
+    width:32%;
+    box-sizing: border-box;
+}
+.home-sec-2-card-container .home-sec-2-card .icon{
+    width:12rem;
+    height:12rem;
+    margin-bottom:2rem;
+}
+.home-sec-2-card-container .home-sec-2-card .card-title{
+   text-align: center;
+   text-transform: uppercase;
+    font-size: 2.1rem;
+    margin-top: 2.5rem;
+    color: #e74e84;
+    margin-bottom: 1.6rem;
+}
+.home-sec-2-card-container .home-sec-2-card .card-p{
+    font-size: 1.3rem;
+    line-height: 1.4;
+    color: #555;
+    margin-bottom: 1.6rem;
+}
+.home-page-sec-2 .find-dr-btn{
+    border: none;
+    color: #fff;
+    background: #e74e84;
+    cursor: pointer;
+    outline: 0;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    -ms-border-radius: 2.5rem;
+    border-radius: 2.5rem;
+    font-weight: 500;
+    padding: 1.2rem 4.5rem;
+    font-size: 1.6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.home-page-sec-2 .find-dr-btn:hover{
+    background: #74d1c6;
+}
+.home-page-sec-2 .find-dr-btn-wrapper{
+    text-align: center;
+}

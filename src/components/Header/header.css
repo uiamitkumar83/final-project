@@ -1,5 +1,9 @@
 .main-header{
-    background-color:#fff;   
+    background-color: #fff;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    top:0; 
 }
 .lg-header{
     display: flex;
