@@ -1,5 +1,7 @@
 import React from 'react';
-import './home.css'
+import './home.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 export const HomeComponent =(props)=>{
     return(
         <React.Fragment>
@@ -83,6 +85,144 @@ export const HomeComponent =(props)=>{
                        {/* s-container end */}
                 </div>
                 {/* home-page-sec-2 */}
+                <div className="home-page-sec-3 s-bg-white">
+                        <div className="s-container">
+                            <h2 className="home-title-h1">FIND YOUR DOCTOR OR CLINIC</h2>
+                            <h3 className="home-title-h2">Nec graeci sadipscing disputationi ne, mea ea nonumes percipitur. Nonumy ponderum oporteat cu mel, pro movet cetero at.</h3>
+
+                            <div className="home-list-card-wrapper">
+                                    <ul className="home-list-card">
+                                        <li className="list-title">
+                                            <img />
+                                            <h2>SEARCH BY CITY OR ZONE</h2>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li list-more">
+                                            <a>
+                                              More...
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                    </ul>
+                                    {/* home-list-card end */}
+                                    <ul className="home-list-card">
+                                        <li className="list-title">
+                                            <img />
+                                            <h2>SEARCH BY TYPE</h2>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li">
+                                            <a>
+                                                <span className="list-no">23</span>
+                                                <span>Albany</span>
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                        <li className="list-li list-more">
+                                            <a>
+                                              More...
+                                            </a>
+                                        </li>
+                                        {/* list-title end */}
+                                    </ul>
+                                    {/* home-list-card end */}
+                            </div>
+                            {/* home-list-card-wrapper end */}
+                        </div>
+                        {/* s-container end */}
+                </div>
+                {/* home-page-sec-3 */}
             </div>
             {/* home page end */}
         </React.Fragment>
